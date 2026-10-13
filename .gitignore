@@ -1,2 +1,9 @@
 .env
 node_modules/
+*.obj
+*.pdb
+*.exe
+*.ilk
+*.idb
+.vs/
+.vscode/
