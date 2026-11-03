@@ -1,0 +1,7 @@
+# 测试与缓存
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
