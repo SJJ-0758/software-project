@@ -1,44 +1,7 @@
-.vscode
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-#虚拟环境
-.venv/
-venv/
-env/
-ENV/
-
-#Pycharm/JetBrains  IDE 配置
-.idea/
-*.iml
-*.iws
-*.ipr
-
-build/
-dist/
-*.egg-info/
-.eggs/
-# ===== 日志和临时文件 =====
-*.log
-pip-log.txt
-pip-delete-this-directory.txt
-*.tmp
-*.temp
-
-#===系统文件====
-.DS_Store          # macOS
-Thumbs.db          # Windows
-Desktop.ini        # Windows
-
-# ===== 测试/覆盖率报告 =====
-htmlcov/
+# 测试与缓存
+.pytest_cache/
 .tox/
-.nox/
 .coverage
-coverage.xml
-
-# ===== 项目特定文件 (Pygame 游戏可能产生的本地数据) =====
-# 例如：本地高分记录、用户设置存档等
-high_score.txt
-*.save
+.coverage.*
+htmlcov/
+.mypy_cache/
